@@ -24,7 +24,7 @@ gulp build
 
 local: http://localhost:3001/
 
-online: http://mapleliu.com/v-drawer/
+online: http://mapleliu.com/marquee-js/
 
 ## Usage
 
