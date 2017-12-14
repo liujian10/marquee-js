@@ -1,6 +1,6 @@
 {
   "name": "marquee-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Marquee plugin with Javascript support",
   "main": "dist/marquee.js",
   "scripts": {
