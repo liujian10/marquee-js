@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MarqueeJs</title>
+  <meta charset="utf-8"/>
+  <link rel="Shortcut Icon" href="https://s.gravatar.com/avatar/1a96e618fb381aa8071da782438bb2c8?s=80"/>
+  <meta name="keywords" content="MarqueeJs">
+  <meta name="description" content="MarqueeJs">
+  <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta content="black" name="apple-mobile-web-app-status-bar-style">
+  <meta content="telephone=no" name="format-detection">
+  <meta name="apple-mobile-web-app-title" content="MarqueeJs">
+
+  <!--公共组件-->
+  <script src="//js.letvcdn.com/lc03_pay/201512/17/17/12/jquery-1.10.1.min.js"></script>
+
+</head>
+<body>
+
+<article style="text-align: center">
+  <div id="test" style="font-size: 50px;display: inline-block;margin: 100px auto 0;width:300px;">
+    <label id="test-label">擦撒大SDASD啊送达洒洒大打双打</label>
+    <label id="test-label2">擦撒大SDASD啊送达洒洒大打双打</label>
+    <label id="test-label3">擦撒大SDASD啊送达洒洒大打双打</label>
+    <label id="test-label4">擦撒大SDASD啊送达洒洒大打双打</label>
+  </div>
+</article>
+<script src="marquee.js"></script>
+<script>
+  $('#test-label').marqueeCss({ width: 300, speed: 10 });
+  $('#test-label2').marqueeJs({ delay: 1000, width: 300, speed: 10 });
+  $('#test-label3').marqueeJs({ width: 300, speed: 10 });
+
+  marqueeJs(document.getElementById('test-label4'), { width: 300, speed: 10 });
+</script>
+</body>
+</html>
