@@ -1,8 +1,6 @@
 # marquee-js
 Js marquee plugin with CSS3 support
 
-![demo](assets/sheet.jpg)
-
 ## Install
 
 [![marquee-js](https://nodei.co/npm/marquee-js.png)](https://npmjs.org/package/marquee-js)
