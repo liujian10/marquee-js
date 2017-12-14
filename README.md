@@ -29,10 +29,11 @@ online: http://mapleliu.com/marquee-js/
 用于处理文字，超长自动循环滚动；
 
 ```html
-<script src='marquee.js'></script>
+// cdn
+<script src='https://cdn.jsdelivr.net/npm/marquee-js@1.0.3/dist/marquee.min.js'></script>
 ```
 
-```
+```js
 marqueeJs(dom,options);
 ```
 
